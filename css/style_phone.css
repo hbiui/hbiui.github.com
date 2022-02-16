@@ -1,0 +1,1620 @@
+@media screen and (max-width: 768px){
+    .banner-index{
+        margin-bottom: 0.8rem;
+    }
+    .banner-index-pic{
+        width: 100%;
+        height: 1.97rem;
+        top: 50%;
+        margin-top: -1rem;
+    }
+    .banner-index-animtion{
+        width: 7.5rem;
+        height: 7rem;
+    }
+    .banner-momoux{
+        background: url(jpg)center no-repeat / cover;
+    }
+    .country{
+        background: url(jpg)center no-repeat / cover;
+    }
+    .women{
+        width: 43px;
+        height: 52px;
+        background-image: url(jpg);
+        left: 13%;
+    }
+    .car{
+        width: 95px;
+        height: 26px;
+        background-image: url(jpg);
+    }
+    .robot{
+        width: 33px;
+        height: 30px;
+        background-image: url(jpg);
+    }
+    .man{
+        width: 70px;
+        height: 80px;
+        right: 7%;
+    }
+    .uav{
+        width: 0.7rem;
+        height: 0.5rem;
+    }
+    .mask-left{
+        width: 4px;
+    }
+    .banner-video video{
+        display: none;
+    }
+    .banner-video img{
+        width: 100%;
+        
+    }
+    .portfolio{
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        transform: translateX(0);
+        margin-top: 0;
+    }
+    .fyd{
+        background: url(jpg) center no-repeat / cover !important;
+        background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x) !important;
+    }
+    .zszj{
+        background: url(jpg) center no-repeat / cover !important;
+        background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x) !important;
+    }
+    .sy{
+        background: url(../img/appcase@2.png) center no-repeat / cover !important;
+        background-image: -webkit-image-set(url() 1x,url(../img/appcase@2.png) 2x) !important;
+    }
+    .df{
+            background: url(jpg) center no-repeat / cover !important;
+    }
+    .portfolio-part a{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .pic-bg video{
+        display: none;
+    }
+    .pic-across{
+        width: 100%;
+        height: 4.93rem;
+        padding-bottom: 0;
+    }
+    .pic-vertical{
+        width: 100%;
+        height: 10.2rem;
+        padding-bottom: 0;
+    }
+    .pic-mask-content{
+        position: absolute;
+        width: 100%;
+        height: 1.42rem;
+        padding-top: 0;
+        left: 0;
+        bottom: 0;
+        background: url(jpg);
+        background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .pic-mask-content h5{
+        opacity: 1;
+        font-size: 30px;
+        line-height: 30px;
+        bottom: 0.9rem;
+        position: absolute;
+        left: 0.3rem;
+        
+    }
+    .pic-mask-content p{
+        opacity: 1;
+        font-size: 18px;
+        line-height: 18px;
+        position: absolute;
+        bottom: 0.45rem;
+        left: 0.3rem;
+        margin-top: 0;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+    .pic-mask-content span{
+        display: none;
+    }
+    .pic-mask:hover .pic-mask-content p , .pic-mask:hover .pic-mask-content h5{
+        transform: none;
+        -webkit-transform: none;
+    }
+    .portfolio-more a{
+        width: 3.4rem;
+        height: 0.8rem;
+        line-height: 0.8rem;
+        margin-top: 0rem;
+        background: none;
+    }
+    .in-service-card{
+        width: 100% !important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        background: none;
+    }
+    .in-service-card ul{
+        margin-left: 0;
+        margin-right: 0;
+        width: auto;
+        margin-bottom: 0;
+    }
+    .in-service-card li{
+        width: 100%;
+        height: 2rem;
+        padding-top: 0;
+        background: #fff;
+        box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.07);
+    }
+    .in-service-card li span{
+        float: left;
+        width: 1.16rem;
+        height: 1.12rem;
+        background-size: cover;
+        margin-left: 5%;
+        margin-right: 7%;
+        margin-bottom: 0;
+        margin-top: 0.4rem;
+    }
+
+    .in-service-card li:nth-child(1) span {
+        background-image: url(jpg);
+    }
+
+    .in-service-card li:nth-child(2) span {
+        background-image: url(jpg);
+    }
+
+    .in-service-card li:nth-child(3) span {
+        background-image: url(jpg);
+    }
+
+    .in-service-card li:nth-child(4) span {
+        background-image: url(jpg);
+    }
+
+    .in-service-card li:nth-child(5) span {
+        background-image: url(jpg);
+    }
+
+    .in-service-card li h5{
+        font-size: 24px;
+        line-height: 24px;
+        text-align: left;
+        margin-top: 0.7rem;
+        margin-bottom: 0.16rem;
+        position: relative;
+        bottom: auto;
+    }
+    .in-service-card li p{
+        font-size: 18px;
+        line-height: 18px;
+        text-align: left;
+        position: relative;
+        bottom: auto;
+    }
+
+    .in-service-card li span.on{
+        animation: logo_phone_animation 1s steps(25) 2 alternate;
+    }
+
+    @keyframes logo_phone_animation{
+        0%{background-position: 0% 0%;}
+        100%{background-position: 100% 0%;}
+    }
+
+
+
+    .in-portfolio-text{
+        padding-top: 0.975rem;
+    }
+    .in-analysis{
+        width: 100% !important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    .in-analysis-text{
+        padding-top: 0.6rem;
+    }
+    .in-analysis-content a{
+        width: 49%;
+        height: auto;
+        margin-right: 0;
+        padding-bottom: 0;
+    }
+    .box-shadow{
+        box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.07);
+    }
+    .in-analysis-content a:first-child{
+        float: left;
+        margin-right: 1%;
+    }
+    .in-analysis-content a:last-child{
+        float: right;
+        display: none;
+    }
+    .analy-card{
+        width: 3.3rem;
+        height: 1.4rem;
+        margin-top: 2.7rem;
+    }
+    .analy-label{
+        font-size: 16px;
+        min-width: 1.2rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        top: -15%;
+    }
+    .analy-card p{
+        font-size: 24px;
+        left: 0.25rem;
+        top: 0.35rem;
+        line-height: 36px;
+        width: 2.6rem;
+    }
+    .analysis-more a{
+        width: 3.42rem;
+        height: 0.7rem;
+        line-height: 0.7rem;
+        margin-top: 0.5rem;
+        font-size: 16px;
+    }
+    .in-logo-pic{
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 0.64rem;
+        background: url(../img/skills2.png);
+        background-image: -webkit-image-set(url(../img/skills2.png) 1x,url(../img/skills2@2.png) 2x);
+        padding-bottom: 22.5%;
+    }
+    .portfolio-nav{
+        width: 97.6% !important;
+        margin-right: 1.2% !important;
+        margin-left:1.2% !important; 
+        padding-top: 0.52rem;
+        padding-bottom: 0.6rem;
+    }
+    .portfolio-nav li{
+        width: 1.80rem;
+        height: 0.6rem;
+        font-size: 16px;
+        line-height: 0.6rem;
+        margin-right: 0.03rem;
+        margin-bottom: 0.2rem;
+        background: #f4f7fb;
+    }
+    .portfolio-nav li.active{
+        background: #329bf0;
+    }
+    .portfolio-nav li:nth-child(4n){
+        margin-right: 0;
+    }
+    .portfolio-nav li:nth-child(7){
+        margin-right: 0.03rem;
+    }
+    .portfolio-text{
+        padding-top: 0.3rem;
+        padding-bottom: 0.8rem;
+    }
+    /*portfolio*/
+    .service{
+        width: 100% !important; 
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .service-card{
+        width: 7.1rem;
+        height: 2rem;
+
+    }
+    .service-wrap li{
+        padding-bottom: 0.4rem;
+    }
+    .card-wrap{
+        height: 100%;
+    }
+    .service-product ,.service-experience ,.service-strategy , .service-design , .service-motion{
+        background-size: 100% 3.86rem;
+    }
+    .drop-tab{
+        display: none;
+    }
+    .card-text{
+        margin-left: 0.2rem;
+        margin-top: 0.35rem;
+    }
+    .card-text h5{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .card-text p{
+        width: 6.68rem;
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 0.15rem;
+        color: #808080;
+    }
+    .card-example{
+        display: none;
+    }
+    .field-content li{
+        width: 1.54rem;
+        height: 1.16rem;
+        margin-right: 0.8rem;
+        margin-bottom: 1.2rem;
+    }
+    .field-content li span{
+        width: 1.54rem;
+        height: 1.16rem;
+    }
+    .field-content li:nth-child(3n){
+        margin-right: 0;
+    }
+    .field-content li:nth-child(4n){
+        margin-right: 0.8rem;
+    }
+    .field-content{
+        padding-top: 0.1rem;
+        width: auto;
+        height: auto;
+    }
+    .field-content ul{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 0.3rem;
+        padding-bottom: 0rem;
+    }
+    .field-content li p{
+        font-size: 16px;
+        bottom: -0.5rem;
+    }
+    .field-wrap{
+        height: auto;
+    }
+    .model{
+        width: 100%;
+    }
+    .model-wrap{
+        height: 4.26rem;
+        background: url(jpg);
+        background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x);
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 0rem;
+        margin-bottom: 0.6rem;
+    }
+    .model-content{
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .model-content li{
+        width: 33.33%;
+        margin-right: 0;
+        margin-bottom: 0rem;
+        height: 2.13rem;
+    }
+    .model-content-li{
+        width: 2.49rem;
+        height: 2.46rem;
+        margin-top: 0;
+    }
+    .model-content p{
+        display: none;
+    }
+    .model-content h5{
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0.3rem;
+        margin-bottom: 0.2rem;
+        text-align: center;
+    }
+    .model-content span:first-child{
+        width: 0.75rem;
+        height: 0.61rem;
+        margin-bottom: 0.25rem;
+    }
+    #model-lineup{
+        margin-top: 0;
+    }
+    .model-content span:last-child{
+        width: 0.36rem;
+        height: 0.23rem;
+    }
+    .logo-text{
+        padding-top: 0.3rem;
+    }
+    .logo{
+        padding-bottom: 0.6rem;
+    }
+    .logo-pic{
+        padding-bottom: 274%;
+        background: url(jpg);
+        background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x);
+        background-size: cover;
+        background-position: center;
+    }
+    /**********************************************service**********************************************************/
+    .momoux-gif{
+        display: none;
+    }
+    .concept-content{
+        height: auto;
+    }
+    .concept-content span{
+        display: none;
+    }
+    .concept-word{
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+    .concept-text{
+        padding-bottom: 0.6rem;
+    }
+    .concept-word p:nth-child(1) ,.concept-word p{
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 0.3rem;
+    }
+    .culture-text{
+        padding-top: 0.6rem;
+    }
+    .design-culture{
+        min-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .culture-content{
+        padding-bottom: 52.5%;
+        background: url(jpg);
+        background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x);
+        background-size: cover;
+    }
+    .title-text p{
+        display: none;
+    }
+    .leadership li{
+        width: 2rem;
+        margin-right: 0.46rem;
+    }
+    .leader{
+        height: 2.3rem;
+        margin-top: 0.36rem;
+    }
+    .leader span{
+        height: 2.66rem;
+    }
+    .leadership li h5{
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 0.18rem;
+    }
+    .leadership li p{
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 0.14rem;
+    }
+    .employees li{
+        width: 33.33%;
+        height: auto;
+        margin-right: 0rem;
+        margin-bottom: 0.6rem;
+    }
+    .employees li:nth-child(5n){
+        margin-right: 0rem;
+    }
+    .employees li:nth-child(3n){
+        margin-right: 0rem;
+    }
+    .employee-pic{
+        width: 1.6rem;
+        height: 1.6rem;
+        margin: 0 auto;
+    }
+    .employee-pic span{
+        background-size: 8rem 14.4rem !important;
+    }
+    .employee-pic span:first-child.on{
+        animation: employee_animation 2s linear;
+    }
+    @keyframes employee_animation{
+        0%{opacity: 0;}
+        20%{opacity: 1;}
+        80%{opacity: 1;}
+        100%{opacity: 0;}
+    }
+    .employee-pic span:first-child:hover{
+        opacity: 0;
+    }
+    .employees li h5{
+        font-size: 18px;
+        line-height: 50px;
+        white-space:nowrap;
+    }
+    .employees li p{
+        font-size: 12px;
+        line-height: 12px;
+        white-space:nowrap;
+        display: none;
+    }
+    .employees li:nth-child(40){
+        margin-bottom: 0;
+    }
+    .employees{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .zhankeng{
+        display: none;
+    }
+    .news-dot{
+        display: none;
+    }
+    .news-content-wrap{
+        width: 100%;
+    }
+    .news-content a{
+        width: 3.7rem;
+        height: auto;
+        background-size: 100% auto;
+        margin-right: 0;
+    }
+
+    .news-content a:nth-child(2){
+        float: right;
+    }
+
+    .news-content a:nth-child(3){
+        display: none;
+    }
+    .news-card{
+        width: 3.3rem;
+        height: 1.2rem;
+        margin-top: 2.6rem;
+        box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+    }
+    .news-content a:nth-child(1n) .news-card{
+        background: #fff;
+    }
+    .news-card div{
+        width: 2.8rem;
+        left: 0.27rem;
+        top: 0.22rem;
+    }
+    .news-card p:nth-child(1){
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .news-card p:nth-child(2){
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 0.13rem;
+    }
+    .news-content{
+        width: 100% !important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        padding-bottom: 0;
+    }
+    .recruitment-title{
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        height: auto;
+    }
+    .recruitment-rext{
+        font-size: 0.4rem;
+        line-height: 0.6rem;
+    }
+    .recruitment-title span:nth-child(1){
+        width: 0.6rem;
+        height: 0.6rem;
+        background-size: cover;
+    }
+    .recruitment-title span:nth-child(2){
+        font-size: 0.3rem;
+        line-height: 0.6rem;
+        margin-left: 0.2rem;
+    }
+    .recruitment-title span:nth-child(3){
+        font-size: 0.18rem;
+        margin-top: 0.26rem;
+        line-height: 0.18rem;
+        margin-left: 0;
+    }
+    .recruitment-btn{
+        width: 0.24rem;
+        height: 0.24rem;
+        margin-top: 0.18rem;
+        background-size: cover;
+    }
+    .recruitment-word{
+        margin-left: 0.8rem;
+        margin-top: 0.14rem;
+    }
+    .recruitment-word p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0.3rem;
+    }
+    /**********************************************************about***************************************/
+    .mlab-content{
+        width: 100% !important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    .mlab-content a{
+        height: auto;
+        background-size: auto 3rem;
+        background-position: center top;
+        margin-bottom: 0.5rem;
+    }
+    .mlab-card{
+        width: 7.1rem;
+        height: auto;
+        margin-top: 2rem;
+    }
+    .mlab-time{
+        width: 1rem;
+        height: 1rem;
+        top: 0.7rem;
+    }
+    .mlab-time h5{
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+    .mlab-time span{
+        width: 0.88rem;
+        height: 1px;
+    }
+    .mlab-time p{
+        font-size: 0.16rem;
+        line-height: 0.16rem;
+        margin-top: 0.1rem;
+    }
+    .card-content{
+        margin-left: 0.2rem;
+        padding-top: 0.3rem;
+        width: 6.7rem;
+
+    }
+    .card-content h5{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 0.15rem;
+        width: 100%;
+    }
+    .card-content span{
+        width: 1.9rem;
+        height: 0.36rem;
+        font-size: 0.18rem;
+        line-height: 0.36rem;
+        margin-top: 0;
+        display: none;
+    }
+    .card-content p{
+        font-size: 16px;
+        line-height: 30px;
+        width: 6.36rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        
+    }
+    .mlab-content{
+        padding-top: 0.4rem;
+    }
+    /*****************************************mlab*****************************************/
+    .banner-mlab-pro{
+        height: 4.4rem;
+    }
+    .mlab-content-pro{
+        width: 100%;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+    .mlab-Introduction h5{
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 0.2rem;
+        padding-top: 0.5rem;
+    }
+    .mlab-Introduction p:nth-child(1){
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .mlab-Introduction p:nth-child(2){
+        font-size: 14px;
+        line-height: 26px;
+        margin-top: 0.3rem;
+    }
+    .mlab-section-title{
+        margin-top: 0.6rem;
+    }
+    .mlab-section-title h5{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 0.3rem;
+    }
+    .mlab-section-title p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .mlab-section-content{
+        padding-top: 0.6rem;
+        padding-bottom: 1rem;
+    }
+    .mlab-section-content h5{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 0.3rem;
+    }
+    .mlab-section-content p{
+        font-size: 14px;
+        line-height: 26px;
+        padding-bottom: 0.3rem;
+    }
+    .mlab-section-pic{
+        height: 3.2rem;
+    }
+    .mlab-section-pic-content p{
+        margin-top: 0.08rem;
+        font-size: 12px;
+        margin-left: 0.16rem;
+        line-height: 21px;
+    }
+    .mlab-section-triangle{
+        margin-top: 0.2rem;
+        margin-right: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+    .mlab-share{
+        margin-top: 0.2rem;
+        margin-bottom: 0.6rem;
+    }
+    .mlab-logo{
+        display: none;
+    }
+    .mlab-review{
+        padding-top: 0.6rem;
+        padding-bottom: 0.3rem;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .analy-card{
+        box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.07);
+    }
+    .mlab-analysis{
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+    }
+    .mlab-analysis a{
+        width: 3.4rem;
+        height: 4.2rem;
+        background-size: 3.47rem 3.4rem;
+    }
+    .mlab-fill{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 414px){
+	
+    .man{
+        top: 25%;
+    }
+	.portfolio{
+		width: 94%;
+		margin-left: 3%;
+		margin-right: 3%;
+		transform: translateX(0);
+        margin-top: 0;
+	}
+    .fyd{
+        background: url(jpg) center no-repeat / cover !important;
+        background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x) !important;
+    }
+    .zszj{
+        background: url(jpg) center no-repeat / cover !important;
+        background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x) !important;
+    }
+    .sy{
+        background: url(../img/appcase@1.png) center no-repeat / cover !important;
+        background-image: -webkit-image-set(url(../img/appcase@1.png) 1x,url(../img/appcase@2.png) 2x) !important;
+    }
+    .df{
+            background: url(jpg) center no-repeat / cover !important;
+    }
+	.portfolio-part a{
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+    .pic-bg video{
+        display: none;
+    }
+	.pic-across{
+		width: 100%;
+		height: 4.93rem;
+        padding-bottom: 0;
+	}
+	.pic-vertical{
+		width: 100%;
+		height: 10.2rem;
+        padding-bottom: 0;
+	}
+	.pic-mask-content{
+		position: absolute;
+		width: 100%;
+		height: 1.42rem;
+		padding-top: 0;
+		left: 0;
+		bottom: 0;
+		background: url(jpg);
+		background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.pic-mask-content h5{
+		opacity: 1;
+		font-size: 16px;
+		line-height: 16px;
+		bottom: 0.9rem;
+		position: absolute;
+		left: 0.3rem;
+		
+	}
+	.pic-mask-content p{
+		opacity: 1;
+		font-size: 12px;
+		line-height: 12px;
+		position: absolute;
+	    bottom: 0.3rem;
+	    left: 0.3rem;
+	    margin-top: 0;
+	    transform: translateY(0);
+	    -webkit-transform: translateY(0);
+	}
+	.pic-mask-content span{
+		display: none;
+	}
+	.pic-mask:hover .pic-mask-content p , .pic-mask:hover .pic-mask-content h5{
+		transform: none;
+		-webkit-transform: none;
+    }
+    .portfolio-more a{
+        width: 3.4rem;
+        height: 0.8rem;
+        line-height: 0.8rem;
+        margin-top: 0rem;
+    }
+    .in-service-card{
+		width: 100%;
+		height: auto;
+		background: none;
+	}
+	.in-service-card ul{
+		margin-left: 0;
+		margin-right: 0;
+        width: auto;
+        margin-bottom: 0;
+	}
+	.in-service-card li{
+		width: 100%;
+		height: 2rem;
+		padding-top: 0;
+		background: #fff;
+		box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.07);
+	}
+	.in-service-card li span{
+		float: left;
+		width: 50px;
+		height: 56px;
+		background-size: auto 100%;
+		margin-left: 5%;
+		margin-right: 7%;
+		margin-bottom: 0;
+		margin-top: 0.4rem;
+	}
+
+	.in-service-card li h5{
+		font-size: 20px;
+		line-height: 20px;
+		text-align: left;
+		margin-top: 0.54rem;
+		margin-bottom: 0.16rem;
+        position: relative;
+        bottom: auto;
+
+	}
+	.in-service-card li p{
+		font-size: 14px;
+		line-height: 15px;
+		text-align: left;
+        position: relative;
+        bottom: auto;
+	}
+	.in-portfolio-text{
+		padding-top: 0.975rem;
+	}
+    .in-analysis{
+    	width: 100% !important;
+    	margin-left: 0!important;
+    	margin-right: 0!important;
+    }
+    .in-analysis-text{
+    	padding-top: 0.6rem;
+    }
+    .in-analysis-content a{
+    	width: 49.5%;
+    	height: auto;
+    	margin-right: 0;
+        padding-bottom: 0;
+        overflow: visible;
+    }
+    .in-analysis-content a:nth-child(2){
+        margin-right: 0;
+    }
+    .box-shadow{
+        box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.07);
+    }
+    .in-analysis-content a:first-child{
+    	float: left;
+        margin-right: 1%;
+    }
+    .in-analysis-content a:last-child{
+    	float: right;
+    }
+    .analy-card{
+    	width: 3.3rem;
+    	height: 1.4rem;
+    	margin-top: 2.7rem;
+    }
+    .analy-card-bg{
+        display: none;
+    }
+    .analy-label{
+    	font-size: 12px;
+        padding: 0.02rem 0.06rem;
+        line-height: 0.4rem;
+        top: -15%;
+    }
+    .analy-card p{
+    	font-size: 12px;
+    	left: 0.25rem;
+    	top: 0.3rem;
+    	line-height: 21px;
+        width: 2.8rem;
+    }
+    .analysis-more a{
+    	width: 3.42rem;
+    	height: 0.7rem;
+    	line-height: 0.7rem;
+    	margin-top: 0.5rem;
+        font-size: 16px;
+    }
+    .in-logo-pic{
+    	width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-bottom: 0.64rem;
+    }
+    .portfolio-nav{
+    	width: 97.6% !important;
+    	margin-right: 1.2% !important;
+    	margin-left:1.2% !important; 
+    	padding-top: 0.52rem;
+    	padding-bottom: 0.6rem;
+    }
+    .portfolio-nav li{
+    	width: 1.80rem;
+    	height: 0.6rem;
+    	font-size: 0.24rem;
+    	line-height: 0.6rem;
+    	margin-right: 0.03rem;
+    	margin-bottom: 0.2rem;
+    }
+    .portfolio-nav li:nth-child(4n){
+    	margin-right: 0;
+    }
+    .portfolio-nav li:nth-child(7){
+    	margin-right: 0.03rem;
+    }
+    .portfolio-text{
+    	padding-top: 0.3rem;
+        padding-bottom: 0.8rem;
+    }
+    /*portfolio*/
+    .service{
+    	width: 100% !important; 
+    	margin-left: 0 !important;
+    	margin-right: 0 !important;
+    }
+    .service-card{
+    	width: 7.1rem;
+    	height: auto;
+
+    }
+    .service-wrap li{
+        padding-bottom: 0.4rem;
+    }
+    .card-wrap{
+    	height: auto;
+    }
+    .service-product ,.service-experience ,.service-strategy , .service-design , .service-motion{
+    	background-size: 100% 3.86rem;
+    }
+    .service-card-top{
+        padding-top: 3rem;
+    }
+    .drop-tab{
+    	display: none;
+    }
+    .card-text{
+    	margin-left: 0rem;
+    	margin-top: 0rem;
+        padding-left: 0.2rem;
+        padding-top: 0.35rem;
+        padding-bottom: 0.4rem;
+        float: none;
+    }
+    .card-text h5{
+    	font-size: 16px;
+    	line-height: 16px;
+    }
+    .card-text p{
+    	width: 6.68rem;
+    	font-size: 12px;
+    	line-height: 18px;
+    	margin-top: 0.22rem;
+    	color: #808080;
+    }
+    .card-example{
+    	display: none;
+    }
+    .field-content li{
+    	width: 1.54rem;
+    	height: 1.16rem;
+    	margin-right: 0.8rem;
+    	margin-bottom: 1.2rem;
+    }
+    .field-content li span{
+        width: 1.54rem;
+        height: 1.16rem;
+    }
+    .field-content li:nth-child(3n){
+    	margin-right: 0;
+    }
+    .field-content li:nth-child(4n){
+    	margin-right: 0.8rem;
+    }
+    .field-content{
+    	padding-top: 0.1rem;
+        width: auto;
+        height: auto;
+    }
+    .field-content ul{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 0.3rem;
+        padding-bottom: 0.6rem;
+    }
+    .field-content li p{
+    	font-size: 14px;
+    	bottom: -0.65rem;
+    }
+    .field-wrap{
+    	height: auto;
+    }
+    .model{
+    	width: 100%;
+    }
+    .model-wrap{
+    	height: 4.26rem;
+    	background: url(jpg);
+	    background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x);
+	    background-size: cover;
+	    background-position: center;
+        padding-bottom: 0rem;
+        margin-bottom: 0.6rem;
+    }
+    .model-content{
+    	padding-top: 0;
+    	padding-left: 0;
+    }
+    .model-content li{
+    	width: 33.33%;
+    	margin-right: 0;
+    	margin-bottom: 0rem;
+        height: 2.13rem;
+    }
+    .model-content-li{
+        width: 2.49rem;
+        height: 2.46rem;
+        margin-top: 0;
+    }
+    .model-content p{
+    	display: none;
+    }
+    .model-content h5{
+    	font-size: 16px;
+    	line-height: 16px;
+    	margin-top: 0.3rem;
+    	margin-bottom: 0.2rem;
+    	text-align: center;
+    }
+    .model-content span:first-child{
+    	width: 0.75rem;
+    	height: 0.61rem;
+    	margin-bottom: 0.25rem;
+    }
+    #model-lineup{
+    	margin-top: 0;
+    }
+    .model-content span:last-child{
+    	width: 0.36rem;
+    	height: 0.23rem;
+    }
+    .logo-text{
+    	padding-top: 0.3rem;
+    }
+    .logo{
+    	padding-bottom: 0.6rem;
+    }
+    /**********************************************service**********************************************************/
+    .momoux-gif{
+    	display: none;
+    }
+    .concept-content{
+    	height: auto;
+    }
+    .mlab-content a{
+        background-size: auto 3.87rem;
+    }
+    .concept-content span{
+    	display: none;
+    }
+    .concept-word{
+    	width: 100%;
+    	position: relative;
+    	left: 0;
+    }
+    .card-content h5{
+        font-size: 18px;
+    }
+    .mlab-time{
+        width: 1.1rem;
+        height: 1rem;
+        top: 0.7rem;
+    }
+    .mlab-time h5{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .concept-text{
+    	padding-bottom: 0.6rem;
+    }
+    .concept-word p:nth-child(1) ,.concept-word p{
+    	font-size: 14px;
+        line-height: 26px;
+    	margin-bottom: 0.3rem;
+    }
+    .culture-text{
+    	padding-top: 0.6rem;
+    }
+    .design-culture{
+    	min-width: 100% !important;
+    	margin-left: 0 !important;
+    	margin-right: 0 !important;
+    }
+    .culture-content{
+    	padding-bottom: 52.5%;
+    	background: url(jpg);
+	    background-image: -webkit-image-set(url(jpg) 1x,url(jpg) 2x);
+	    background-size: cover;
+    }
+    .title-text p{
+    	display: none;
+    }
+    .leadership li{
+    	width: 2rem;
+    	margin-right: 0.46rem;
+    }
+    .leader{
+    	height: 2.3rem;
+    	margin-top: 0.36rem;
+    }
+    .leader span{
+    	height: 2.66rem;
+    }
+    .leadership li h5{
+    	font-size: 14px;
+    	line-height: 14px;
+    	margin-top: 0.18rem;
+    }
+    .leadership li p{
+    	font-size: 12px;
+    	line-height: 12px;
+    	margin-top: 0.14rem;
+    }
+    .employees li:nth-child(5n){
+    	margin-right: 0rem;
+    }
+    .employees li:nth-child(3n){
+    	margin-right: 0rem;
+    }
+    .employee-pic{
+    	width: 1.6rem;
+    	height: 1.6rem;
+        margin: 0 auto;
+    }
+    .employees li h5{
+    	font-size: 14px;
+    	line-height: 34px;
+    	white-space:nowrap;
+    }
+    .employees li p{
+    	font-size: 12px;
+        line-height: 12px;
+    	white-space:nowrap;
+    }
+    .employees{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+
+    .zhankeng{
+        display: none;
+    }
+    .news-dot{
+    	display: none;
+    }
+    .news-content-wrap{
+    	width: 100%;
+    }
+    .news-content a{
+    	width: 3.7rem;
+    	height: auto;
+    	background-size: 100% auto;
+    	margin-right: 0;
+        padding-bottom: 0;
+        overflow: visible;
+    }
+    .news-content a:nth-child(2){
+    	float: right;
+    }
+    .news-card{
+    	width: 3.3rem;
+    	height: 1.6rem;
+    	margin-top: 2.6rem;
+        box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+    }
+    .news-card-bg{
+        display: none;
+    }
+    .news-card div{
+    	width: 2.8rem;
+    	left: 0.25rem;
+    	top: 0.22rem;
+    }
+    .news-card p:nth-child(1){
+    	font-size: 12px;
+    	line-height: 12px;
+    }
+    .news-card p:nth-child(2){
+    	font-size: 12px;
+    	line-height: 21px;
+    	margin-top: 0.13rem;
+    }
+    .news-content , .memory{
+    	width: 100% !important;
+    	margin-left: 0!important;
+    	margin-right: 0!important;
+    }
+    .recruitment-title{
+    	margin-top: 0.3rem;
+    	margin-bottom: 0.3rem;
+    	height: auto;
+    }
+    .recruitment-rext{
+    	font-size: 0.4rem;
+    	line-height: 0.6rem;
+    }
+    .recruitment-title span:nth-child(1){
+    	width: 0.6rem;
+    	height: 0.6rem;
+    	background-size: cover;
+    }
+    .recruitment-title span:nth-child(2){
+    	font-size: 0.3rem;
+    	line-height: 0.6rem;
+    	margin-left: 0.2rem;
+    }
+    .recruitment-title span:nth-child(3){
+    	font-size: 0.18rem;
+    	margin-top: 0.26rem;
+    	line-height: 0.18rem;
+    	margin-left: 0;
+    }
+    .recruitment-btn{
+    	width: 0.24rem;
+    	height: 0.24rem;
+    	margin-top: 0.18rem;
+    	background-size: cover;
+    }
+    .recruitment-word{
+    	margin-left: 0.8rem;
+    	margin-top: 0.14rem;
+    }
+    .recruitment-word p{
+    	font-size: 14px;
+        line-height: 24px;
+    	margin-bottom: 0.3rem;
+    }
+    /**********************************************************about***************************************/
+
+    .mlab-content{
+    	width: 100% !important;
+    	margin-left: 0!important;
+    	margin-right: 0!important;
+    }
+    .mlab-content a{
+    	height: auto;
+    	background-size: auto 3.87rem;
+        background-position: center top;
+        margin-bottom: 0.5rem;
+        overflow: visible;
+
+    }
+    .mlab-bg{
+        display: none;
+    }
+    .mlab-card{
+    	width: 7.1rem;
+    	height: auto;
+    	margin-top: 3.26rem;
+        position: relative;
+        top: 0;
+    }
+    .mlab-time{
+    	width: 1.25rem;
+    	height: 1rem;
+    	top: 1.2rem;
+    }
+    .mlab-time h5{
+    	font-size: 0.36rem;
+    	line-height: 0.rem;
+    	margin-top: 0.17rem;
+    	margin-bottom: 0.1rem;
+    }
+    .mlab-time span{
+    	width: 0.88rem;
+    	height: 1px;
+    }
+    .mlab-time p{
+    	font-size: 0.16rem;
+    	line-height: 0.16rem;
+    	margin-top: 0.1rem;
+    }
+    .card-content{
+    	margin-left: 0.2rem;
+    	padding-top: 0.3rem;
+    	width: 6.7rem;
+
+    }
+    .card-content h5{
+    	font-size: 16px;
+    	line-height: 24px;
+    }
+    .card-content span{
+    	width: 1.9rem;
+    	height: 0.4rem;
+    	font-size: 0.18rem;
+    	line-height: 0.4rem;
+        margin-top: 4px;
+    }
+    .card-content p{
+    	font-size: 12px;
+    	line-height: 18px;
+    	width: 6.36rem;
+    	text-overflow: ellipsis;
+    	overflow: hidden;
+        padding-bottom: 0.4rem;
+    }
+    .card-dropDown.active{
+        display: none;
+    }
+    .mlab-content{
+        padding-top: 0.4rem;
+    }
+    /*****************************************mlab*****************************************/
+    .banner-mlab-pro{
+        height: 4.4rem;
+    }
+    .mlab-content-pro{
+        width: 100%;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+    .mlab-Introduction h5{
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 0.2rem;
+        padding-top: 0.5rem;
+    }
+    .mlab-Introduction p:nth-child(1){
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .mlab-Introduction p:nth-child(2){
+        font-size: 14px;
+        line-height: 26px;
+        margin-top: 0.3rem;
+    }
+    .mlab-section-title{
+        margin-top: 0.6rem;
+    }
+    .mlab-section-title h5{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 0.3rem;
+    }
+    .mlab-section-title p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .mlab-section-content{
+        padding-top: 0.6rem;
+        padding-bottom: 1rem;
+    }
+    .mlab-section-content h5{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 0.3rem;
+    }
+    .mlab-section-content p{
+        font-size: 14px;
+        line-height: 26px;
+        padding-bottom: 0.3rem;
+    }
+    .mlab-section-pic{
+        height: 3.2rem;
+    }
+    .mlab-section-pic-content p{
+        margin-top: 0.08rem;
+        font-size: 12px;
+        margin-left: 0.16rem;
+        line-height: 21px;
+    }
+    .mlab-section-triangle{
+        margin-top: 0.2rem;
+        margin-right: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+    .mlab-share{
+        margin-top: 0.2rem;
+        margin-bottom: 0.6rem;
+    }
+    .mlab-logo{
+        display: none;
+    }
+    .mlab-review{
+        padding-top: 0.6rem;
+        padding-bottom: 0.3rem;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .analy-card{
+        box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.07);
+    }
+    .mlab-analysis{
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+    }
+    .mlab-analysis a{
+        width: 3.4rem;
+        height: 4.2rem;
+        background-size: 3.47rem 3.4rem;
+    }
+    .mlab-fill{
+        display: none;
+    }
+    a.mlab-analysis-a .analy-card{
+        margin-top: 2.7rem;
+    }
+    a.mlab-analysis-a .analy-text p{
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .mlab-time{
+        height: 1.1rem;
+        margin-top: 0.15rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .man{
+        top: 13%;
+    }
+    .in-service-card li h5{
+        font-size: 18px;
+    }
+    .in-service-card li p{
+        font-size: 12px;
+    }
+    .portfolio-nav li{
+    	font-size: 12px;
+    }
+    .portfolio-text{
+        font-size: 18px !important;
+    }
+    .news-card{
+        width: 3.4rem;
+    }
+    .news-card div{
+    	width: 3rem;
+        left: 0.23rem;
+    }
+    .news-card p:nth-child(2){
+        line-height: 18px;
+    }
+    .card-content span{
+    	width: 2.2rem;
+    }
+    .portfolio-nav ul{
+        margin-left: 0.1rem;
+    }
+    .portfolio-nav li{
+        width: 2.2rem;
+        margin-right: 0.2rem;
+    }
+    .portfolio-nav li:nth-child(4n){
+        margin-right: 0.2rem;
+    }
+    .portfolio-nav li:nth-child(7){
+        margin-right: 0.2rem;
+    }
+    .pic-mask-content h5{
+        bottom: 1rem;
+    }
+    .field-content li p{
+        font-size: 12px;
+    }
+	.logo_span .img_active{width: auto;height: 50px}
+	.img-avatar.wow.fadeInUp{width: 200px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding: 0}
+a:hover{ text-decoration:none}
+.textwp{text-align:center}
+p{font-size: 18px; }
+li{ list-style:none}
+body{ background:#fff; }		
+
+
+
+
+/*顶部*/
+.container-fluid{padding: 0}
+.navbar-default{background:#3c3d3d}
+.navbar-default .navbar-brand{color:#FFF}
+.navbar-default .navbar-nav > li > a{ color:#FFF}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover,.navbar-right li.on a{color:#57b2fa; padding-left: 35px;}
+.dropdown-menu{ min-width:100px}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{ background:rgba(102,102,102,0.1)}
+/*.navbar-nav > li > .dropdown-menu{rgba(102,102,102,0.1);}*/
+.navbar{margin-bottom: 0; border-bottom:none ;/*border-bottom: 1px solid #000;*/}
+.navbar-brand img{ width:25px; height:40px;}
+.navbar-brand{ padding:8px 15px;padding-bottom: 0;padding-top: 0;margin-top: 5px}
+
+
+
+/*作品分类*/
+.classify{height:auto}
+.navtop-bg{background:#fff;}
+.navtop .libox{ height:50px; background:#fff; text-align:center; line-height:50px; font-size:16px; color:#333; cursor:pointer;}
+.navtop .libox:hover,.navtop .libox.on{ color:#57b2fa; }
+.conter{ margin-top:3%; clear:both;}
+.conter ul li{ display:none}
+.conter ul li.active{ display: block}
+
+.conter ul li .text{margin:5% auto 0  auto; color:#666}
+.conter ul li .text a{display:block; float:left; font-size:18px; color:#57b2fa; }
+.conter ul li>.text a:hover{ text-decoration:underline;}
+.conter ul li .text>h4{ line-height:20px; font-size:16px;}
+.conter ul li .text>h2{ margin-bottom:8%; font-size:28px;}
+.conter ul li .text>P{ line-height:20px; font-size:14px; margin-bottom:6%;}
+@media (max-width:750px){
+.navtop .libox{font-size:13px;}
+.conter ul li .text{margin:0 auto}
+.conter ul li .text>h2{margin:0 auto 7% auto;  font-size:12px;}
+.conter ul li .text>h4{ margin:0 auto 0 auto; line-height:14px; font-size:9px;}
+.conter ul li .text>P{margin:0 auto 5% auto; line-height:12px; font-size:7px;}
+.conter ul li .text a{ font-size:9px;}
+	.service-title1 img{width: 30%;}
+}
+
+
+
+
+.conter ul li .text1{margin:0 auto 0  auto; color:#666}
+.conter ul li .text1 a{display:block; float:left; font-size:18px; color:#57b2fa; }
+.conter ul li>.text1 a:hover{ text-decoration:underline;}
+.conter ul li .text1>h4{ line-height:20px; font-size:16px;}
+.conter ul li .text1>h2{ margin-bottom:8%; font-size:28px;}
+.conter ul li .text1>P{ line-height:20px; font-size:14px; margin-bottom:6%;}
+@media (max-width:750px){
+.navtop .libox{font-size:13px;}
+.conter ul li .text1{margin:0 auto}
+.conter ul li .text1>h2{margin:0 auto 7% auto;  font-size:12px;}
+.conter ul li .text1>h4{ margin:0 auto 0 auto; line-height:14px; font-size:9px;}
+.conter ul li .text1>P{margin:0 auto 5% auto; line-height:12px; font-size:7px;}
+.conter ul li .text1 a{ font-size:9px;}
+	.service-title1 img{width: 30%;}
+}
+
+
+
+
+
+
+/*服务范围*/
+.service-bg{background:#fff; padding-bottom:6%;}
+.thumbnail{ background:#fff; border:none;}
+.service-title{text-align:center; color:#FFF; /*margin-top:6%;*/}
+.service-title1 {text-align:center; color:#FFF; margin-top:4.5%;margin-bottom: 0.5%;}
+
+.service{ margin-top:5%;}
+.service .img-responsive, .thumbnail a > img, .thumbnail > img{max-width:70%; height:auto;  margin:0 auto 15% auto;padding-top: 30px;}
+.service a:focus, a { color:#0b0b0b; text-align:center;}
+.service a:focus, a:hover{ color:#0b0b0b; }
+.service p{font-size:16px;}
+@media (max-width:750px){.service-bg{display: none }}
+
+
+.flip-container { display: inline-block;  -webkit-perspective: 500;  -moz-perspective: 500; -ms-perspective: 500;  perspective: 500; -ms-transform: perspective(500px); -moz-transform: perspective(500px); /*重要*/  transform-style: preserve-3d; /*重要*/}
+.flipper { position: relative; width: 200px; height: 220px; margin:0 auto;  transition: 0.6s; transform-style: preserve-3d; /*重要*/}
+/* 触发翻转 */
+.flip-container:hover .flipper{transform: rotateY(180deg);}
+.front ,.back{position: absolute;  left: 0; top: 0;  backface-visibility: hidden;  /*重要*/  width: 100%; height: 100%;}
+.front {transform: rotateY(0deg);  z-index: 2;	color:#FFF}
+.front h3{ font-size:18px; margin-top:30px}
+.back {transform: rotateY(-180deg); background:#57b2fa;	color:#0b0b0b;	padding:15px 25px;}
+.back h3{ font-size:20px; margin-bottom:12px}
+.back p{ color:rgba(26,26,26,0.7); font-size:15px; line-height:25px; }
+body{ font-family:"Lucida Grande","Microsoft Yahei","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,"PingFang SC",STHeiti;}
+
+
+
+
+/*底部*/
+.footer-bg{background:#161616; width:100%; padding-top:3%;}/*底部电脑端开始*/
+.footer-box .footer-l{ color:#FFF; padding:2% 0;  }
+.footer-box .footer-l img{ margin:3% 4% 3% 10%; width:25px; height:25px; float:left;}
+.footer-box .footer-l p{ display:block; float:left; color:#fff; font-size:14px; margin:3% auto 6% auto;}
+.footer-r img{ width:50%; height:50%; margin:5% auto 25% auto;}
+@media (max-width:750px){/*媒体查询底部移动端开始*/
+.footer-bg{ background:#161616;}
+.footer-r img{ width:25%; height:25%; margin:5% auto 2% auto;}	
+.footer-box .footer-l img{ margin:3% 4% 3% 25%; width:15px; height:15px; float:left;}
+.footer-box .footer-l p{ display:block; float:left; color:#fff; font-size:14px; margin:3% auto 6% auto;}
+
+	}
+
+
+.navbar-default{backgronud:none;height: 50px}
+.conter ul li .text a{color:#57b2fa;}
+.navtop .libox:hover, .navtop .libox.on {color: #57b2fa;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-right li.on a {color: #fff;}
+a:focus/*获取焦点*/, a:hover {color: #57b2fa !important;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-right li.on a  span{color: #57b2fa;}
+
+.navtop .libox.on img{margin-top: 10%;}
+.service-title1 {text-align:center; margin-top:4.5%;margin-bottom: 0.5%;}
+@media (max-width:750px){.service-title1 img{width: 20%;}}/*设置移动端样式*/
+
+
+.licon{height: auto;width: auto}
+.licon img{margin-top: 15%;margin-left: 8%}
+@media (max-width:750px){.licon img{width: 250px;}}/*设置移动端样式*/
+
+.flatcase{margin-top: 5%;}
+@media (max-width:750px){.flatcase ul li .animated.slideInRight{text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}}
+h4{margin-top: 0}
+.slideInLeft{padding-left: 6%}
+.abb{margin-top: 8%}
+
+
+
+.flatcase /*空格是它的子级*/ul li .pic{overflow: hidden;/*图片变大超出部分隐藏*/}
+.flatcase ul li .pic img{cursor: pointer;transition: all 1.0s;/*变化速度数值越小变化越快*/}
+.flatcase ul li .pic img:hover{transform: scale(1.1);/*设置图片变大范围倍数*/}
+.acc{width: 553px;height: 286px;overflow: hidden;}
+@media (max-width:750px){.acc{width: auto;height: auto}}
+
+
+
+.appcentent{width: 1200px;height: 260px;margin: auto;margin-top: 1%;}
+@media (max-width:750px){.appcentent{width: auto;height: auto;margin-top: 5%}}
+
+.ass .appcentent img{width: -moz-available;height: initial;margin: auto;}
+@media (max-width:750px){.appcentent img{width: -moz-available;height: initial;}}
+
+.page{width: 1200px;height: auto;margin: auto;background: #fff;}
+.page img{width: 1000px; padding-top: 10%;margin: auto;margin-left: 8%}
+@media (max-width:750px){.page{width: auto;height: auto;margin: auto;padding-top: 10%; background: #fff;}}
+@media (max-width:750px){.page img{width: -moz-available;height: initial; margin: auto}}

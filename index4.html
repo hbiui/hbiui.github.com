@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><!--移动端优先-->
+<title>全局设计，体验美好</title>
+<link rel="shortcut icon" href="img/jianou.png" style="width: auto">
+<link href="css/3bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="css/3animate.css" type="text/css" rel="stylesheet">
+<link href="css/3indexflat.css" type="text/css" rel="stylesheet">
+<script src="js/3jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="js/3bootstrap.min.js" type="text/javascript"></script>
+<script src="js/3wow.js" type="text/javascript"></script>
+</head>
+
+<body style="background: url(img/bg.jpg)">
+	<!--导航开始-->
+        <div class="container-fluid">
+        
+		<div class="col-md-12 col-sm-12 col-xs-12 ass">
+			<div class="appcentent">
+			<img alt="img" src="img/4img.png"/>
+			</div>
+			<div class="page wow bounceInLeft">
+			<img alt="img" src="img/12.5d.png"/>
+			</div>
+			<div class="page wow bounceInLeft">
+			<img alt="img" src="img/2.5Dwork.png"/>
+			</div>
+			<div class="page wow bounceInLeft">
+			<img alt="img" src="img/2.5Dconnect.png"/>
+			</div>
+			<div class="page wow bounceInLeft">
+			<img alt="img" src="img/bag.png"/>
+			</div>
+		</div>
+        </div><div id="mark_mask" style="display:none;position:fixed;top:40px;left:0;z-index:99999999;height:1000px;width:100%;background:rgba(0,0,0,0.0);"></div>
+<!--导航结束-->
+
+
+
+    
+        	<script>
+		new WOW().init();
+	</script>
+        
+				<script type="text/javascript">
+                $( document).ready(function() {
+                    $(".navtop .libox").hover(function(){
+                        $(this).addClass("on").siblings(".libox").removeClass("on");
+                        $(".conter li").eq($(this).index()).addClass("active").siblings("li").removeClass("active");
+                    });
+                });
+                </script>
+	
+</body>
+</html>
